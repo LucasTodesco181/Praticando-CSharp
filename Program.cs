@@ -65,35 +65,90 @@ else
 //*Exercicio 3
 
 
-Console.WriteLine("Exercício 3");
+// using System.Diagnostics;
 
-int? numeroSecreto = 67;
-int tentativas = 3;
+// Console.WriteLine("Exercício 3");
 
-Console.WriteLine("Digite um numero e tente acertar: ");
-int numero = int.Parse(Console.ReadLine()!);
+// int? numeroSecreto = 67;
+// int tentativas = 3;
 
-while (tentativas <=3 )
-{
-    if (numero == numeroSecreto)
-    {
-        Console.WriteLine("Parabéns você acertou o número");
-        break;
-    }
+// Console.WriteLine("Digite um numero e tente acertar: ");
+// int numero = int.Parse(Console.ReadLine()!);
 
-    else
-    {
-        tentativas--;
-        Console.WriteLine($"Você errou, ainda têm {tentativas} tentativa(s)");
+// while (tentativas <=3 )
+// {
+//     if (numero == numeroSecreto)
+//     {
+//         Console.WriteLine("Parabéns você acertou o número");
+//         break;
+//     }
+
+//     else
+//     {
+//         tentativas--;
+//         Console.WriteLine($"Você errou, ainda têm {tentativas} tentativa(s)");
         
 
-        if(tentativas == 0)
-        {
-            Console.WriteLine($"Acabou suas tentativas, o numero secreto era {numeroSecreto} ");
-            break;
-        }
-        Console.WriteLine("Digite outro numero: ");
-        numero = int.Parse(Console.ReadLine()!);
-        break;
-    }
-}
+//         if(tentativas == 0)
+//         {
+//             Console.WriteLine($"Acabou suas tentativas, o numero secreto era {numeroSecreto} ");
+//             break;
+//         }
+//         Console.WriteLine("Digite outro numero: ");
+//         numero = int.Parse(Console.ReadLine()!);
+//         break;
+//     }
+// }
+
+//!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//*Exercicio 4
+
+// Console.WriteLine("Exercício 4");
+
+
+// int num1 = 0;
+// int num2 =0;
+
+// int somar ( int a, int b)
+// {
+//     return a + b;
+// }
+
+// int mult ( int a, int b)
+// {
+//     return a * b;
+// }
+
+// Console.WriteLine("Digite o primeiro numero");
+// num1 = int.Parse(Console.ReadLine());
+
+// Console.WriteLine("Digite o segundo numero");
+// num2 = int.Parse(Console.ReadLine());
+
+// Console.WriteLine($"O valor da soma dos valores é {somar (num1, num2)}");
+
+// Console.WriteLine($"O valor da multiplicação dos valores é {mult (num1, num2)}");
+
+
+
+//*Exercicio 5
+
+
+// int[] numeros = {8, 9, 10}; 
+
+// double[] notas = new double[3];
+
+// for (int i = 0; i < notas.Length; i++)
+// {
+//     Console.WriteLine($"Digite a nota do aluno {i + 1}:");
+//     notas[i] = double.Parse(Console.ReadLine());
+// }
+
+// foreach (double nota in notas)
+// {
+//     Console.WriteLine($"Nota: {nota}");
+// }
+
+// var media = notas.Average();
+// Console.WriteLine($"Média das notas: {media}");
