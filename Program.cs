@@ -152,3 +152,33 @@ else
 
 // var media = notas.Average();
 // Console.WriteLine($"Média das notas: {media}");
+
+//*Exercicio 6
+// List<string> Produtos = new List<string>();
+
+// for (int i = 0; i < 3; i++)
+// {
+//     Console.WriteLine($"Digite o nome do produto {i + 1}: ");
+//     string produto = Console.ReadLine();
+//     Produtos.Add(produto);
+// }
+
+// foreach (string produto in Produtos)
+// {
+//     Console.WriteLine($"Produto: {produto}");
+// }
+
+// string produtoBusca;
+
+// Console.WriteLine("Digite o nome do produto a ser encontrado: ");
+// produtoBusca = Console.ReadLine();
+
+// if(Produtos.Contains(produtoBusca))
+// {
+//     Console.WriteLine($"O produto {produtoBusca} está na lista.");
+// }
+// else
+// {
+//     Console.WriteLine($"O produto {produtoBusca} não está na lista.");
+// }
+
